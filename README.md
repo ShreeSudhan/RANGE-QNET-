@@ -62,3 +62,10 @@ N. C. Ristea, A. Anghel, and R. T. Ionescu, *Fully Convolutional Neural Networks
 
 ---
 
+## Reproducibility
+
+The datasets are publicly available and can be downloaded using the links provided above. All experiments reported in the paper can be reproduced using the source code included in this repository after configuring the dataset paths.
+
+
+
+
