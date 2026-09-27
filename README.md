@@ -1,2 +1,2 @@
 # RANGE-QNET-
-Source code and datasets for the PeerJ paper "RANGE-QNET: Neural Network and Reinforcement Learning Framework for FMCW Radar Range Prediction."
+Source code  "RANGE-QNET: Neural Network and Reinforcement Learning Framework for FMCW Radar Range Prediction."
