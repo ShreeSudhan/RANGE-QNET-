@@ -1,6 +1,12 @@
-# RANGE-QNET-
-Source code  "RANGE-QNET: Neural Network and Reinforcement Learning Framework for FMCW Radar Range Prediction."
-## Dataset Information
+# RANGE-QNET: Neural Network and Reinforcement Learning Framework for FMCW Radar Range Prediction
+
+## Project Overview
+
+This repository contains the source code, implementation details, and dataset references for the PeerJ Computer Science paper entitled **"RANGE-QNET: Neural Network and Reinforcement Learning Framework for FMCW Radar Range Prediction."**
+
+The proposed framework integrates conventional FMCW radar signal processing, Neural Networks (NN), and Q-learning (QL) to improve radar range prediction under noise and interference conditions. The repository provides the implementation used for the experimental evaluation presented in the paper together with links to the publicly available datasets employed in this study.
+
+---
 
 ## Dataset Information
 
@@ -62,10 +68,67 @@ N. C. Ristea, A. Anghel, and R. T. Ionescu, *Fully Convolutional Neural Networks
 
 ---
 
+## Code Information
+
+The repository includes implementations for:
+
+- FMCW radar signal generation and preprocessing
+- Range FFT and Doppler FFT processing
+- Range–Doppler map generation
+- Feature extraction and normalization
+- Neural Network-based radar range prediction
+- Q-learning-based adaptive decision learning
+- Performance evaluation and visualization
+
+---
+
+## Usage Instructions
+
+1. Install Python 3.x.
+2. Install the required Python packages listed below.
+3. Download the public datasets from the links provided above.
+4. Update the dataset paths in the source code.
+5. Execute the Python scripts to reproduce the experimental results reported in the paper.
+
+---
+
+## Requirements
+
+The implementation was developed and tested using **Python 3.x**.
+
+Required Python packages:
+
+- NumPy
+- Pandas
+- SciPy
+- Matplotlib
+- TensorFlow
+- Scikit-learn
+- h5py
+- tqdm
+
+The implementation includes an automatic dependency check that installs any missing packages before execution.
+
+---
+
 ## Reproducibility
 
 The datasets are publicly available and can be downloaded using the links provided above. All experiments reported in the paper can be reproduced using the source code included in this repository after configuring the dataset paths.
 
+---
 
+## Citation
 
+If you use this repository, please cite:
 
+**Rajyashree H., Govindarajan J.**
+
+**RANGE-QNET: Neural Network and Reinforcement Learning Framework for FMCW Radar Range Prediction.**
+
+PeerJ Computer Science.
+
+---
+
+## Contact
+
+For questions regarding the implementation, please contact the corresponding author.
